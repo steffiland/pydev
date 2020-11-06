@@ -1,9 +1,14 @@
+version: "3.8"
 services: 
     web: 
       build: app 
       ports: 
         - '5000:5000'
         - 5678:5678
-      restart: always
+      #restart: always
       volumes:
-        - ./app/src:/code
+        - ./app/src:/src
+      environment: 
+        FLASK_ENV: development
+        # the FLASK_ENV environment variable tells flask run to
+        # run in development mode and reload the code on change
