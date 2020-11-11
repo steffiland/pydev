@@ -1,0 +1,12 @@
+pylint
+ipykernel
+ipython
+pytest
+
+# needed for https://code.visualstudio.com/docs/python/data-science-tutorial
+pandas 
+jupyter 
+seaborn 
+scikit-learn 
+keras 
+tensorflow
