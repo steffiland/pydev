@@ -1,8 +1,8 @@
 # https://www.docker.com/blog/containerized-python-development-part-1/
 
 # debugger
-#import ptvsd
-#ptvsd.enable_attach(address=('0.0.0.0', 5678))
+import ptvsd
+ptvsd.enable_attach(address=('0.0.0.0', 5678))
 
 
 from flask import Flask
