@@ -1,4 +1,4 @@
-FROM python:3.9
+FROM python:3.15
 #RUN pip install --upgrade pip
 
 RUN useradd --create-home appman
